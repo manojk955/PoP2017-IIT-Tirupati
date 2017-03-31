@@ -1,4 +1,4 @@
-(defn tim [a]
+(defn tim [a]\\for taking time as input
   (def b (quot a 60))
   (def c (quot b 60))
   (def d (quot c 24))
@@ -15,7 +15,7 @@
         (println i "hr" h "min"  g "sec")
         (if (== e 0)
           (println j "day"  i "hr" h "min"  g "sec")
-          (println e "wk" i "hr"  h "min"  g "sec")
+          (println e "wk" i "hr"  h "min"  g "sec")\\print time in wks,days,hrs resp
           )
         )
       )
